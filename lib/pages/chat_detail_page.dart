@@ -184,18 +184,20 @@ class ChatBubble extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
-            Container(
-              decoration: BoxDecoration(
-                color: primary,
-                borderRadius: getMessageType(messageType) 
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(13.0),
-                child: Text(
-                  message,
-                  style: TextStyle(
-                    color: white,
-                    fontSize: 17
+            Flexible(
+                          child: Container(
+                decoration: BoxDecoration(
+                  color: primary,
+                  borderRadius: getMessageType(messageType) 
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(13.0),
+                  child: Text(
+                    message,
+                    style: TextStyle(
+                      color: white,
+                      fontSize: 17
+                    ),
                   ),
                 ),
               ),
@@ -207,32 +209,37 @@ class ChatBubble extends StatelessWidget {
       return Padding(
         padding:  EdgeInsets.all(1.0),
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Container(
-              width: 35,
-              height: 35,
-              decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  image: DecorationImage(
-                      image: NetworkImage(
-                          profileImg),
-                      fit: BoxFit.cover)),
+            Flexible(
+                          child: Container(
+                width: 35,
+                height: 35,
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                        image: NetworkImage(
+                            profileImg),
+                        fit: BoxFit.cover)),
+              ),
             ),
             SizedBox(
               width: 15,
             ),
-            Container(
-              decoration: BoxDecoration(
-                color: grey,
-                borderRadius: getMessageType(messageType) 
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(13.0),
-                child: Text(
-                  message,
-                  style: TextStyle(
-                    color: black,
-                    fontSize: 17
+            Flexible(
+                          child: Container(
+                decoration: BoxDecoration(
+                  color: grey,
+                  borderRadius: getMessageType(messageType) 
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(13.0),
+                  child: Text(
+                    message,
+                    style: TextStyle(
+                      color: black,
+                      fontSize: 17
+                    ),
                   ),
                 ),
               ),
