@@ -159,7 +159,7 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
   Widget getBody() {
     
     return ListView(
-      padding: EdgeInsets.all(20),
+      padding: EdgeInsets.only(right: 20,left: 20,top: 20,bottom: 80),
       children: List.generate(messages.length, (index){
         return ChatBubble(isMe: messages[index]['isMe'],messageType: messages[index]['messageType'],message: messages[index]['message'],profileImg: messages[index]['profileImg']);
       }),
@@ -211,8 +211,7 @@ class ChatBubble extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Flexible(
-                          child: Container(
+             Container(
                 width: 35,
                 height: 35,
                 decoration: BoxDecoration(
@@ -222,7 +221,6 @@ class ChatBubble extends StatelessWidget {
                             profileImg),
                         fit: BoxFit.cover)),
               ),
-            ),
             SizedBox(
               width: 15,
             ),
