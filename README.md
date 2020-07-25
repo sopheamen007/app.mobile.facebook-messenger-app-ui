@@ -2,6 +2,7 @@
 
 <!-- display the social media buttons in your README -->
 [![alt text][1.1]][1]
+[![alt text][1.1]][1]
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
 [![alt text][4.1]][4]
@@ -20,6 +21,7 @@
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
 
+[1]: http://www.twitter.com/carlsednaoui
 [1]: http://www.twitter.com/carlsednaoui
 [2]: http://www.facebook.com/sednaoui
 [3]: https://plus.google.com/+CarlSednaoui
