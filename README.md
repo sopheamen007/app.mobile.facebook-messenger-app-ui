@@ -23,7 +23,7 @@
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
 
-[1]: http://www.facebook.com/sednaoui
+[1]: https://www.facebook.com/Sopheamen-Van-110104824091670
 [2]: http://www.twitter.com/carlsednaoui
 [3]: https://plus.google.com/+CarlSednaoui
 [4]: http://carlsed.tumblr.com
