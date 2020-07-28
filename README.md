@@ -24,7 +24,7 @@
 <!-- update these accordingly -->
 
 [1]: https://www.facebook.com/Sopheamen-Van-110104824091670
-[2]: http://www.twitter.com/carlsednaoui
+[2]: https://twitter.com/sopheamenvan007
 [3]: https://plus.google.com/+CarlSednaoui
 [4]: http://carlsed.tumblr.com
 [5]: http://dribbble.com/carlsednaoui
