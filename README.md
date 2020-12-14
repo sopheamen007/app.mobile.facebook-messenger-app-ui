@@ -1,5 +1,9 @@
 # Facebook Messenger App UI
 
+
+- [Support me on Patreon](https://www.patreon.com/sopheamenvan?fan_landing=true)
+- [Watch on youtube](https://youtu.be/Zk5LHX0l82g)
+
 ![Facebook Messenger App UI](https://user-images.githubusercontent.com/16510597/86947981-bc704f00-c176-11ea-8355-b35f698be928.jpg)
 
 
